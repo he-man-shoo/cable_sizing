@@ -47,7 +47,7 @@ TEMP_RATINGS = ['60', '75', '90']
 
 # --- APP INIT ---
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SPACELAB])
-sever = app.server
+server = app.server
 app.title = "Electrical Load & Wireway Sizing"
 
 # --- HELPER COMPONENTS ---
