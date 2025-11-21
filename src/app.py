@@ -17,8 +17,6 @@ app.title = "Himanshu Deshpande"
 
 server = app.server
 
-
-
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(html.P("PS - Handcrafted this website from scratch—no templates, just caffeine and code.😎🛠️ I'd love to hear what you think, so feel free to drop me a note.", 
